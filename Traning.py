@@ -13,7 +13,7 @@ def main():
             start_time = time.time()
             vvod = input("Ваша купча: ")
         if start == "2":
-            capha = (''.join([random.choice(list('1234567890qwertyuiop')) for x in range(5)]))
+            capha = (''.join([random.choice(list('1234567890qwertyuiopasdfghjklzxcvbnm')) for x in range(5)]))
             print("\n" + str('Купча: ' + capha))
             start_time = time.time()
             vvod = input("Ваша купча: ")
